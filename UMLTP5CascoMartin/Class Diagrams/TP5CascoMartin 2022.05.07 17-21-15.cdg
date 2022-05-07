@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="TP5CascoMartin">
+  <ClassDiagramComponents>
+    <Class name="Arreglo" package="TP5CascoMartin" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="sumarLista" returnType="void" visibility="public" isStatic="true">
+          <Argument type="int[]" name="arreglo"/>
+        </Method>
+        <Method name="buscarMayor" returnType="int" visibility="public" isStatic="true">
+          <Argument type="int[][]" name="arreglo"/>
+        </Method>
+        <Method name="cuentaVocales" returnType="int" visibility="public" isStatic="true">
+          <Argument type="String" name="cadena"/>
+        </Method>
+        <Method name="cuentaCaracter" returnType="int" visibility="public" isStatic="true">
+          <Argument type="String" name="cadena"/>
+          <Argument type="char" name="caracter"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TestArreglo" package="TP5CascoMartin" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
